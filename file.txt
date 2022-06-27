@@ -1,1 +1,3 @@
 learning git and github
+//makin change and will be seen by git
+//git status
