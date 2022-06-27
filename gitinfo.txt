@@ -1,0 +1,36 @@
+-to check git installed or not
+   git version
+
+-make your folder a repository
+   git init
+
+   git add file_name(to send file to stagging area)
+   git status
+   git commit(msg along is typed)
+   press I to write in vim editor
+   to exit vim press escape and type :wq (this means write and quit)
+     
+-to tell the user file_name
+   git config --global user.name "[first name last name]"
+   git config --global user.email "[mailid]"
+
+-another way to commit out without using vim editor
+   git commit -m "adding file1.txt"
+
+-to see the chnages made by one other can see by command 
+   git log
+
+-if you want to make 3 version but by modifying file1.txt only
+that is file and file1 with extra code making third
+then we have to use add command again to make third version
+
+-now if we want to go again on version one
+we shoul move the head pointing to verson 3
+
+
+ -git checkout e732ac15c6d3570dc89e404b88fa8acb5bddd901 adress of version
+ it will delete the other and give only 1
+
+
+ -if want to move at latest
+  git checkout  master
